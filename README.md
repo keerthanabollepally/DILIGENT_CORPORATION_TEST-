@@ -48,6 +48,7 @@ python app.py
 ## Result
 
 The assistant successfully responds to user questions using stored knowledge.
+<img width="1260" height="293" alt="image" src="https://github.com/user-attachments/assets/2e65f43f-f9ef-4461-ac05-9cdba9c6e2c3" />
 
 ## Architecture Mapping
 
@@ -58,6 +59,7 @@ Prototype flow used in this project:
 User Query → TF-IDF + Cosine Similarity → Retrieved Text → Local Response Function → Response
 
 Both follow the same retrieval-based workflow.
+
 
 
 
