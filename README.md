@@ -5,7 +5,7 @@ This is a simple AI assistant built as a prototype.
 It can understand user questions, find relevant information, and reply in a conversational way.
 
 This project focuses on showing the **basic working flow of an AI assistant**, not a full production system.
-## This project simulates the behavior of a self-hosted LLM (such as LLaMA) and a vector database (such as Pinecone) to demonstrate the overall AI assistant workflow.
+# This project simulates the behavior of a self-hosted LLM (such as LLaMA) and a vector database (such as Pinecone) to demonstrate the overall AI assistant workflow.
 
 ---
 
@@ -48,5 +48,17 @@ python app.py
 ## Result
 
 The assistant successfully responds to user questions using stored knowledge.
+
+## Architecture Mapping
+
+Real-world AI assistant flow:
+User Query → Vector Database (e.g., Pinecone) → Retrieved Context → LLM (e.g., LLaMA) → Response
+
+Prototype flow used in this project:
+User Query → TF-IDF + Cosine Similarity → Retrieved Text → Local Response Function → Response
+
+Both follow the same retrieval-based workflow.
+
+
 
 
